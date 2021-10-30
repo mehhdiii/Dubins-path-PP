@@ -44,3 +44,5 @@ plot(xc, yc, '--')
 
 xT = [xPX xPN]; yT = [yPX yPN]; 
 plot(xT, yT, 'k','lineWidth', 3)
+hold off
+print -dpng path.png
