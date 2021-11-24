@@ -15,8 +15,8 @@ c = sqrt((xcs - xcf)^2 + (ycs-ycf)^2);
 alpha = asin((rhof-rhos)/c); 
 beta = atan2(ycf-ycs, xcf - xcs); 
 %E
-% phi = alpha+beta +pi/2; % left turn  
-phi = beta-alpha +3*pi/2; % right turn 
+phi = alpha+beta +pi/2; % left turn  
+% phi = beta-alpha +3*pi/2; % right turn 
 xPX = xcs + rhos*cos(phi); 
 yPX = ycs + rhos*sin(phi);
 %X
